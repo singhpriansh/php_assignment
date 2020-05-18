@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #fff;
+}
+.top-menu{
+    box-sizing: border-box;
+}
+.readonly{
+    width:60%;
+    margin:5px 0px;
+    float:right;
+}
+.side-pop{
+    width: 100%;
+}
+.item{
+    width: 20%;
+    float: left;
+}
+ul {
+    list-style-type: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: block;
+    list-style-type: disc;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.top-menu ul li {
+    list-style: none;
+    padding: 3px 7px;
+    float: left;
+}
+.top-menu ul li a {
+    color: #6b6b6b;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+}
+.clearfix{
+    clear: both;
+}
+.dbmsg{
+    width: 78%;
+    align-content: center;
+    background-color: rgb(245, 142, 236);
+    margin: 25px 24px 5px 24px;
+    outline: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 26px;
+    border: #f07878;
+}
+.newbtn{
+    max-width: 30%;
+    min-width: 390px;
+    align-content: center;
+    background-color: burlywood;
+    margin: 25px 15px;
+    outline: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 26px;
+    border: 0px;
+}
+.footer{
+    width: 99%;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    padding: 5px 0px;
+}
+.form{
+    width: 65%;
+    min-width: 700px;
+    float: left;
+    padding: 5px;
+    /* background-color: aquamarine; */
+}
+.header{
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 800px;
+    margin: auto;
+    display: block;
+}
+.float-right {
+    float: right;
+    margin: -3px 0px;
+}
+.prelogo{
+    display: block;
+    position: relative;
+}
+.logo{
+    width: 15%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding: 0 15px;
+    display: block;
+    text-align: left;
+}
+.text-center{
+    width: 55%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding: 0 15px;
+    text-align: right;
+}
+.text-right{
+    width: 20%;
+    float: right;
+    position: relative;
+    padding: 0px 15px;
+    text-align: center;
+}
+.container{
+    max-width: 90%;
+    min-width: 800px;
+    padding: 10px 0 10px 15px;
+    margin: auto;
+    border-color: black;
+}
+.navbar{
+    position: relative;
+    min-height: 47px;
+    border-radius: 4px;
+}
+.menu{
+    background-color: #ffe7b2;
+    border-bottom: 2px solid #f8291a;
+    border-top: 1px solid #f07878;
+    padding: 4px;
+}
+.allinput, .heading{
+    max-width: 90%;
+    margin: auto;
+}
+table{
+    margin-top: 10px;
+}
+.tab-new{
+    border-top: 2px solid blueviolet;
+    border-bottom: 2px solid blueviolet;
+}
+.opbtn{
+    font-family: monospace;
+    font-size:16px;
+    text-align:left;
+    outline: none;
+    font-family: monospace;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+.table{
+    width: 100%;
+    font-family: monospace;
+}
+thead{
+    font-family: monospace;
+}
+.allbtn{
+    margin: 5px 42px 40px 42px;
+    padding: 6px 34px 15px 0px;
+    bottom: 0;
+    position: fixed;
+    width: 58%;
+    min-width:640px;
+}
+.heading, .allbtn{
+    background-color: #ffc2c2;
+}
+.pass-box{
+    background-color:white;
+    /* background-color:rgb(255, 218, 218); */
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    width: 19%;
+    font-size: 14px;
+    border-radius: 26px;
+    border: 1px  solid white;
+}
+.disabledfield{
+    color: darkgreen;
+    background: aquamarine;
+}
+.disabledinput{
+    color: darkred;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: aquamarine;
+    padding: 3px 4px;
+    width: 90px;
+    margin: 2px;
+    cursor: default;
+}
+.updateinput{
+    max-width: 90%;
+    margin: auto;    
+}
+input, textarea ,.updblck{
+    display: block;
+    border: 1px solid black;
+    font-size: 16px;
+    outline: none;
+    border-radius: 7px;
+    width: 75%;
+    margin: 4px 0px 4px 35px;
+    padding: 3px 13px 4px 10px;
+    float: left;
+}
+.reg-text{
+    max-width: 60%;
+    position: relative;
+    font-family: cursive;
+    font-size: 24px;
+    padding: 3px 0px 7px 10px;
+    text-align: right;
+}
+.heading-text{
+    max-width: 80%;
+    position: relative;
+    font-family: cursive;
+    font-size: 24px;
+    padding: 3px 0px 7px 10px;
+    text-align: center;
+}
+#regular{
+    background: rgb(238, 247, 122);
+    color: rgb(117, 8, 145);}
+#admin{
+    background: chartreuse;
+    color: blue;
+}
+#dob{
+    padding: 10px 3px 8px 0px;
+    float: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+#dob-inp{
+    padding: 2px 14px 2px 15px;
+    float: right;
+    width: 60%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin: 6px 0px 0px 0px;
+}
+.phone{
+    width: 50%;
+    margin-top: 5px;
+    /* padding: 6px 34px 15px 0px; */
+}
+.btn{
+    outline: none;
+    padding: 5px 8px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    border-radius: 26px;
+    border: 0px;
+    cursor: pointer;
+}
+.regular{
+    float: right;
+    padding: 5px;
+    max-width: 45%;
+}
+.admin{
+    float: right;
+    padding: 5px;
+    max-width: 30%;
+}
+textarea{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    resize: initial;
+}
+.rights, .lefts, .centered ,.font-low{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+.rights{
+    width: 30%;
+    position: relative;
+    float: right;
+    padding: 0px 5px;
+    text-align: right;
+}
+.lefts{
+    width: 30%;
+    float: left;
+    padding: 0 10px;
+    text-align: left;
+}
+.centered{
+    text-align: center;
+    font-weight: normal;
+    font-size: 26px;
+}
+.query{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    margin-left: 12px;
+    padding: 9px 0px 0px 0px;
+}
